@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111018">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>~(˘▾˘~)</title>
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{color-scheme:dark;--bg:#111018;--panel:#191722;--panel2:#211e2d;--line:#302b3d;--text:#f4f0fa;--muted:#a9a2b7;--accent:#c7a5ef;--accent2:#8f70bd;--danger:#e28b9c}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#332642 0,transparent 38%),var(--bg);color:var(--text);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh}
+button,input,textarea,select{font:inherit}button{cursor:pointer;color:inherit}.app{max-width:1180px;margin:auto;min-height:100vh;display:grid;grid-template-columns:250px 1fr}
+aside{border-right:1px solid var(--line);padding:24px 16px;background:#14121bdc;backdrop-filter:blur(14px)}
+.brand{font-size:21px;font-weight:750;letter-spacing:.3px;margin:3px 8px 5px}.sub{color:var(--muted);font-size:12px;margin:0 8px 28px}
+.nav{display:grid;gap:7px}.nav button,.secondary{border:1px solid transparent;background:transparent;text-align:left;padding:11px 12px;border-radius:12px;color:var(--muted)}
+.nav button.active,.nav button:hover{background:var(--panel2);border-color:var(--line);color:var(--text)}
+.side-note{margin:30px 8px 0;padding:13px;border:1px solid var(--line);border-radius:14px;color:var(--muted);font-size:12px}
+main{padding:30px clamp(16px,4vw,48px) 100px;min-width:0}.top{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:28px}.eyebrow{color:var(--accent);font-size:12px;letter-spacing:1.5px;text-transform:uppercase}.title{font-size:clamp(26px,4vw,36px);line-height:1.15;margin:5px 0}.muted{color:var(--muted)}.btn{border:1px solid #725b91;background:linear-gradient(135deg,#8d6bb4,#654a88);padding:10px 15px;border-radius:12px;font-weight:650}.btn:hover{filter:brightness(1.12)}.btn.ghost{background:var(--panel);border-color:var(--line);font-weight:500}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:linear-gradient(145deg,#201d2b,#191722);border:1px solid var(--line);border-radius:18px;padding:18px;min-width:0}.card h3{margin:0 0 6px;font-size:17px}.stat{font-size:28px;font-weight:750}.section-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:24px 0 12px}.section-head h2{font-size:18px;margin:0}.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.quick button{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:left}.quick strong{display:block;margin:7px 0 2px}.quick span{color:var(--muted);font-size:12px}.field{display:grid;gap:6px;margin:13px 0}.field label{font-size:13px;color:var(--muted)}input,textarea,select{width:100%;border:1px solid var(--line);border-radius:12px;background:#12111a;color:var(--text);padding:11px 12px;outline:none}input:focus,textarea:focus{border-color:var(--accent2)}textarea{min-height:100px;resize:vertical}.list{display:grid;gap:10px}.item{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px;background:var(--panel);border:1px solid var(--line);border-radius:14px}.item-main{min-width:0}.item-title{font-weight:650;overflow-wrap:anywhere}.item-desc{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.item-actions{display:flex;gap:7px;flex-shrink:0}.small{padding:7px 10px;border-radius:9px;font-size:12px}.empty{padding:35px 18px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:16px}.chat-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}.messages{height:min(55vh,540px);overflow:auto;display:flex;flex-direction:column;gap:10px;padding:14px;background:#15131d;border:1px solid var(--line);border-radius:16px}.bubble{max-width:85%;padding:11px 14px;border-radius:15px;background:var(--panel2);white-space:pre-wrap;overflow-wrap:anywhere}.bubble.me{align-self:flex-end;background:#4c3b62}.composer{display:flex;gap:8px}.composer textarea{min-height:48px;max-height:130px}.notice{background:#292337;border:1px solid #514164;color:#d8c9e9;padding:12px 14px;border-radius:13px;font-size:13px;margin-bottom:14px}.hidden{display:none!important}.footer{margin-top:28px;color:var(--muted);font-size:12px}.mobile-head{display:none}
+@media(max-width:760px){.app{display:block}aside{position:sticky;top:0;z-index:5;border-right:0;border-bottom:1px solid var(--line);padding:12px 14px}.brand{margin:0;font-size:18px}.sub{display:none}.nav{display:flex;overflow:auto;margin-top:10px}.nav button{white-space:nowrap;padding:8px 11px;font-size:13px}.side-note{display:none}main{padding:22px 15px 80px}.quick{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.top{align-items:flex-start}.top .btn{white-space:nowrap}.item{align-items:flex-start}.item-actions{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside>
+  <div class="brand">~(˘▾˘~)</div><div class="sub">ТВОЁ ПРОСТРАНСТВО ИСТОРИЙ</div>
+  <nav class="nav" aria-label="Основная навигация">
+    <button class="active" data-page="home">⌂ Главная</button>
+    <button data-page="chats">☷ Ролевые</button>
+    <button data-page="characters">♙ Персонажи</button>
+    <button data-page="universes">✧ Мои AU</button>
+    <button data-page="settings">⚙ Настройки</button>
+  </nav>
+  <div class="side-note">Твои истории хранятся в этом браузере на устройстве. ИИ пока не подключён — это первая локальная версия.</div>
+</aside>
+<main>
+  <div class="top"><div><div class="eyebrow">личная творческая мастерская</div><h1 class="title" id="pageTitle">Добро пожаловать ✦</h1><div class="muted" id="pageSub">Место, где можно придумывать любые истории.</div></div><button class="btn" id="topAction">＋ Новая ролка</button></div>
+  <section id="page-home">
+    <div class="notice">Первая версия готова к наполнению: можно создавать персонажей, AU и черновики ролевых чатов. Ответы ИИ появятся после подключения API.</div>
+    <div class="grid">
+      <div class="card"><div class="muted">Ролевые чаты</div><div class="stat" id="countChats">0</div><div class="muted">твоих сюжетов</div></div>
+      <div class="card"><div class="muted">Персонажи</div><div class="stat" id="countChars">0</div><div class="muted">в твоей библиотеке</div></div>
+    </div>
+    <div class="section-head"><h2>С чего начнём?</h2></div>
+    <div class="quick">
+      <button onclick="openCreate('chat')">✎<strong>Начать ролку</strong><span>Создать отдельный сюжет</span></button>
+      <button onclick="openCreate('character')">♙<strong>Создать персонажа</strong><span>Характер, речь, история</span></button>
+      <button onclick="openCreate('universe')">✧<strong>Придумать AU</strong><span>Новая вселенная и правила</span></button>
+    </div>
+    <div class="section-head"><h2>Недавние истории</h2><button class="secondary" onclick="showPage('chats')">Все ролки →</button></div>
+    <div id="recentChats" class="list"></div>
+  </section>
+  <section id="page-chats" class="hidden"><div class="notice">Пока это рабочее пространство и сохранение переписки. Генерация ответов подключается следующим этапом.</div><div class="section-head"><h2>Твои ролевые</h2><button class="btn" onclick="openCreate('chat')">＋ Создать</button></div><div id="chatList" class="list"></div></section>
+  <section id="page-characters" class="hidden"><div class="section-head"><h2>Библиотека персонажей</h2><button class="btn" onclick="openCreate('character')">＋ Персонаж</button></div><div id="characterList" class="list"></div></section>
+  <section id="page-universes" class="hidden"><div class="section-head"><h2>Твои AU и вселенные</h2><button class="btn" onclick="openCreate('universe')">＋ Новое AU</button></div><div id="universeList" class="list"></div></section>
+  <section id="page-settings" class="hidden">
+    <div class="card"><h3>Данные и приватность</h3><p class="muted">Истории сохраняются локально в браузере этого устройства. Очистка данных сайта или браузера может удалить их — периодически делай экспорт.</p><button class="btn" id="exportBtn">Экспортировать данные</button> <button class="btn ghost" id="importBtn">Импортировать</button><input type="file" id="importFile" accept="application/json" class="hidden"></div>
+    <div class="card" style="margin-top:14px"><h3>Подключение ИИ — следующий этап</h3><p class="muted">Для настоящего ИИ понадобится API-провайдер и небольшой сервер-посредник. Секретный API-ключ нельзя вставлять прямо в этот сайт: его смогут увидеть другие люди.</p><p class="muted">Сначала подготовим интерфейс и выберем провайдера, затем подключим безопасно.</p></div>
+  </section>
+  <section id="page-editor" class="hidden">
+    <div class="card"><h3 id="editorTitle">Создание</h3><form id="editorForm">
+      <div class="field"><label for="fTitle">Название</label><input id="fTitle" required maxlength="90" placeholder="Например, Ночной город"></div>
+      <div class="field" id="fDescWrap"><label for="fDesc">Описание / завязка</label><textarea id="fDesc" maxlength="5000" placeholder="Опиши идею, атмосферу и важные детали..."></textarea></div>
+      <div class="field hidden" id="fPersonalityWrap"><label for="fPersonality">Характер и манера речи</label><textarea id="fPersonality" maxlength="5000" placeholder="Как персонаж думает, говорит и реагирует..."></textarea></div>
+      <div class="field hidden" id="fWorldWrap"><label for="fWorld">Правила мира</label><textarea id="fWorld" maxlength="5000" placeholder="Время, место, правила и особенности AU..."></textarea></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" type="submit">Сохранить</button><button class="btn ghost" type="button" onclick="showPage('home')">Отмена</button></div>
+    </form></div>
+  </section>
+  <section id="page-chatroom" class="hidden">
+    <div class="notice">Демо-режим: сообщения сохраняются, но ИИ пока не отвечает. Подключим генерацию после настройки API.</div>
+    <div class="chat-layout"><div class="messages" id="messages"></div><div class="composer"><textarea id="messageInput" placeholder="Напиши реплику или заметку..." rows="2"></textarea><button class="btn" id="sendMessage">Отправить</button></div></div>
+    <div style="margin-top:12px"><button class="btn ghost small" onclick="showPage('chats')">← К списку ролок</button></div>
+  </section>
+  <div class="footer">~(˘▾˘~) · версия 0.1 · сделано для твоих историй</div>
+</main>
+</div>
+<script>
+const KEY='au-studio-v1';
+let db={chats:[],characters:[],universes:[]},currentChat=null,editorType='chat';
+try{db={...db,...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch(e){}
+const $=id=>document.getElementById(id);
+function save(){localStorage.setItem(KEY,JSON.stringify(db));render()}
+function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function showPage(page){document.querySelectorAll('main section').forEach(x=>x.classList.add('hidden'));$('page-'+page).classList.remove('hidden');document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));let names={home:['Добро пожаловать ✦','Место, где можно придумывать любые истории.'],chats:['Ролевые чаты','Каждая история — в отдельном пространстве.'],characters:['Персонажи','Собирай героев для любых сюжетов.'],universes:['Мои AU','Создавай собственные миры и альтернативные версии событий.'],settings:['Настройки','Управление данными и подключением.'],editor:['Создание','Заполни детали и сохрани.'],chatroom:[currentChat?.title||'Ролевая','Твой сюжетный черновик.']};$('pageTitle').textContent=names[page][0];$('pageSub').textContent=names[page][1];$('topAction').classList.toggle('hidden',!['home','chats'].includes(page));$('topAction').textContent=page==='chats'?'＋ Новая ролка':'＋ Новая ролка'}
+document.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>showPage(b.dataset.page));
+$('topAction').onclick=()=>openCreate('chat');
+function openCreate(type){editorType=type;$('editorTitle').textContent=({chat:'Новая ролка',character:'Новый персонаж',universe:'Новое AU'})[type];$('fTitle').value='';$('fDesc').value='';$('fPersonality').value='';$('fWorld').value='';$('fPersonalityWrap').classList.toggle('hidden',type!=='character');$('fWorldWrap').classList.toggle('hidden',type!=='universe');$('fDescWrap').querySelector('label').textContent=type==='chat'?'Завязка и контекст':type==='character'?'Внешность и предыстория':'Описание вселенной';showPage('editor')}
+window.openCreate=openCreate;window.showPage=showPage;
+$('editorForm').onsubmit=e=>{e.preventDefault();let item={id:crypto.randomUUID(),title:$('fTitle').value.trim(),description:$('fDesc').value.trim(),created:Date.now()};if(editorType==='character')item.personality=$('fPersonality').value.trim();if(editorType==='universe')item.world=$('fWorld').value.trim();db[{chat:'chats',character:'characters',universe:'universes'}[editorType]].unshift(item);save();showPage(({chat:'chats',character:'characters',universe:'universes'})[editorType])};
+function itemHTML(x,type){return `<div class="item"><div class="item-main"><div class="item-title">${esc(x.title)}</div><div class="item-desc">${esc(x.description||'Пока без описания')}</div></div><div class="item-actions">${type==='chat'?`<button class="btn small" onclick="openChat('${x.id}')">Открыть</button>`:''}<button class="btn ghost small" onclick="removeItem('${type}','${x.id}')">Удалить</button></div></div>`}
+function fillList(id,arr,type){$(id).innerHTML=arr.length?arr.map(x=>itemHTML(x,type)).join(''):'<div class="empty">Пока здесь пусто. Создадим что-нибудь ✦</div>'}
+function render(){$('countChats').textContent=db.chats.length;$('countChars').textContent=db.characters.length;fillList('chatList',db.chats,'chat');fillList('characterList',db.characters,'character');fillList('universeList',db.universes,'universe');fillList('recentChats',db.chats.slice(0,3),'chat')}
+window.removeItem=(type,id)=>{if(!confirm('Удалить эту запись?'))return;db[type]=db[type].filter(x=>x.id!==id);save()};
+window.openChat=id=>{currentChat=db.chats.find(x=>x.id===id);if(!currentChat)return;currentChat.messages ||= [];drawMessages();showPage('chatroom')};
+function drawMessages(){$('messages').innerHTML=currentChat.messages.length?currentChat.messages.map(m=>`<div class="bubble ${m.role==='user'?'me':''}">${esc(m.text)}</div>`).join(''):'<div class="empty">Начни историю с первой реплики ✦</div>';$('messages').scrollTop=$('messages').scrollHeight}
+function send(){let text=$('messageInput').value.trim();if(!text||!currentChat)return;currentChat.messages ||= [];currentChat.messages.push({role:'user',text,at:Date.now()});$('messageInput').value='';save();drawMessages()}
+$('sendMessage').onclick=send;$('messageInput').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send()}});
+$('exportBtn').onclick=()=>{let blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='au-studio-backup.json';a.click();URL.revokeObjectURL(a.href)};
+$('importBtn').onclick=()=>$('importFile').click();$('importFile').onchange=async e=>{let f=e.target.files[0];if(!f)return;try{let d=JSON.parse(await f.text());if(!d||!Array.isArray(d.chats)||!Array.isArray(d.characters)||!Array.isArray(d.universes))throw Error();db=d;save();alert('Данные импортированы!')}catch(err){alert('Не удалось прочитать файл резервной копии.')}};
+if('serviceWorker'in navigator && location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js').catch(()=>{});
+render();
+</script>
+</body></html>

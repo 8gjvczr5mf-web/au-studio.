@@ -1,0 +1,10 @@
+{
+  "name": "~(˘▾˘~) — AU Studio",
+  "short_name": "~(˘▾˘~)",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#111018",
+  "theme_color": "#111018",
+  "description": "Личное пространство для ролевых, персонажей и AU",
+  "icons": []
+}
